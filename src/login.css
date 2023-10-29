@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/logo4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.login {
+  width: 450px;
+  background: transparent;
+  background-color: rgba(253, 187, 187, 0.2);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px rgba(153, 129, 129, 0.2);
+  color: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.login h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.login .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(255, 255, 255, 0.2);
+  border-radius: 50px;
+  font-size: 16px;
+  color: white;
+  padding: 10px 35px 10px;
+}
+
+.input-box input::placeholder {
+  color: white;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.login .forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15.5px;
+  margin: -15px - 15px;
+}
+
+.forgot a {
+  color: white;
+  text-decoration: none;
+}
+
+.forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+.login .btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.login .register {
+  text-align: center;
+  margin-top: 23px;
+  margin: 20px 0 15px;
+}
+
+.register a {
+  color: white;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
